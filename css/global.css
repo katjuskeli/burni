@@ -156,22 +156,37 @@ footer a:hover {
 @media (max-width: 768px) {
 
   .topbar {
-    padding: 20px;
+    padding-top: 18px;
+    padding-bottom: 80px;
+
+    display: flex;
+    justify-content: center;
   }
 
   .top-logo {
-    width: 65px;
+    position: relative;
+    top: auto;
+    left: auto;
+
+    width: 58px;
   }
 
   .main-nav {
-    top: 28px;
-    gap: 10px;
+    top: 78px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    gap: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 100%;
+    padding: 0 10px;
   }
 
   .main-nav a {
-    padding: 10px 16px;
-
-    font-size: 0.85rem;
+    padding: 8px 12px;
+    font-size: 0.72rem;
   }
 
 }
