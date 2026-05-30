@@ -156,16 +156,13 @@ footer a:hover {
 @media (max-width: 768px) {
 
   .topbar {
-    height: 125px;
-    padding: 12px 0 0;
+    height: 120px;
 
     display: flex;
     justify-content: center;
     align-items: flex-start;
-  }
 
-  .topbar a {
-    display: block;
+    padding-top: 14px;
   }
 
   .top-logo {
@@ -178,13 +175,82 @@ footer a:hover {
     left: 50%;
     transform: translateX(-50%);
 
-    width: 100%;
+    width: calc(100% - 20px);
+
     justify-content: center;
-    gap: 7px;
+    flex-wrap: wrap;
+
+    gap: 6px;
   }
 
   .main-nav a {
     padding: 8px 11px;
     font-size: 0.72rem;
   }
-}
+
+  .home-page {
+    padding: 165px 14px 60px;
+  }
+
+  .home-hero {
+    grid-template-columns: 1fr;
+    gap: 26px;
+
+    margin-bottom: 50px;
+  }
+
+  .hero-text {
+    padding: 28px 24px;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .hero-text p {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
+
+  .social-buttons {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .social-buttons a {
+    padding: 10px 15px;
+    font-size: 0.82rem;
+  }
+
+  .hero-image-card {
+    transform: none;
+    justify-content: center;
+  }
+
+  .hero-image-card img {
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .current-section {
+    width: 100%;
+  }
+
+  .current-section h2 {
+    font-size: 2.1rem;
+    margin-bottom: 18px;
+  }
+
+  .current-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .countdown-card {
+    padding: 28px 22px;
+  }
+
+  .countdown {
+    font-size:
