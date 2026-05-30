@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Burnithon | Burni</title>
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/burnithon.css">
+</head>
+
+<body>
+
+  <!-- TAUSTAVIDEO -->
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="assets/banner.mp4" type="video/mp4">
+  </video>
+
+  <!-- OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- YLÄPALKKI -->
+  <header class="topbar">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="Burni Logo" class="top-logo">
+    </a>
+  </header>
+
+  <!-- NAVBAR -->
+  <nav class="main-nav">
+    <a href="index.html">Etusivu</a>
+
+    <a href="burnithon.html" class="active">
+      Burnithon
+    </a>
+
+    <a href="merchstore.html"
+       id="merch-link"
+       style="display:none;">
+      Merch
+    </a>
+
+    <a href="miitti.html">Miitti</a>
+
+    <a href="yhteys.html">
+      Yhteydenotto
+    </a>
+  </nav>
+
+  <!-- SISÄLTÖ -->
+  <main class="burnithon-page">
+
+    <h1 class="sr-only">Burnithon 2.0</h1>
+
+    <div class="teletext-page">
+
+      <!-- YLÄRIVI -->
+      <div class="page-header">
+        <span>BURNITHON 2.0</span>
+        <span>SIVU 100</span>
+      </div>
+
+      <!-- INFOBOXIT -->
+      <section class="info-strip">
+
+        <!-- LIVE -->
+        <div class="info-box">
+
+          <h2>OHJELMA</h2>
+
+          <div id="live-box"></div>
+
+        </div>
+
+        <!-- PISTEET -->
+        <div class="info-box">
+
+          <h2>NÄIN AIKA KERTYY</h2>
+
+          <div class="points-row">
+            <span>Tier 1 sub</span>
+            <strong>+ 6min / 1 piste</strong>
+          </div>
+
+          <div class="points-row">
+            <span>Tier 2 sub</span>
+            <strong>+ 12min / 2 pistettä</strong>
+          </div>
+
+          <div class="points-row">
+            <span>Tier 3 sub</span>
+            <strong>+ 24min / 5 pistettä</strong>
+          </div>
+
+          <div class="points-row">
+            <span>100 bittiä</span>
+            <strong>+ 2min / 0,33 pistettä</strong>
+          </div>
+
+          <div class="points-row">
+            <span>1 € donate</span>
+            <strong>+ 3min / 0,5 pistettä</strong>
+          </div>
+
+        </div>
+
+        <!-- UNIRULETTI -->
+        <div class="info-box sleep-box">
+
+          <h2>UNIRULETTI</h2>
+
+          <p>
+            Legendaarista unirulettia pyöräytetään joka päivä,
+            kun 100€/päivä donateja tulee täyteen.
+          </p>
+
+        </div>
+
+      </section>
+
+      <!-- ALAOSA -->
+      <div class="burnithon-layout">
+
+        <!-- HAASTELISTA -->
+        <section class="challenge-panel">
+
+          <div class="teletext-title">
+
+            <h2>HAASTELISTA</h2>
+
+            <p>
+              Haasteet aukeavat, kun tarvittava pistemäärä tulee täyteen.<br>
+              Isoimmat haasteet saatetaan aikatauluttaa, jolloin näette niiden aikataulun oikealla.
+            </p>
+
+          </div>
+
+          <div class="challenge-list"
+               id="challenge-list">
+          </div>
+
+        </section>
+
+        <!-- AIKATAULU -->
+        <aside class="schedule-panel">
+
+          <div class="teletext-title small-title">
+
+            <h2>AIKATAULU</h2>
+
+          </div>
+
+          <div class="schedule-list"
+               id="schedule-list">
+          </div>
+
+        </aside>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <a href="privacy-policy.html">
+      Privacy Policy
+    </a>
+
+  </footer>
+
+  <!-- SCRIPTIT -->
+  <script src="js/haasteet.js"></script>
+  <script src="js/aikataulu.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/burnithon.js"></script>
+
+</body>
+</html>

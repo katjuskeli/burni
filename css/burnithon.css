@@ -1,0 +1,316 @@
+.burnithon-page {
+  min-height: 100vh;
+  padding: 190px 20px 80px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.teletext-page {
+  width: min(1400px, 100%);
+  margin: 0 auto;
+  padding: 18px;
+
+  background: rgba(0, 0, 0, 0.88);
+  border: 4px solid #2448d8;
+  color: white;
+  font-family: "Courier New", monospace;
+  box-shadow: 0 0 30px rgba(0,0,0,0.75);
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2448d8;
+  color: white;
+  font-size: 1.80rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 18px;
+}
+
+.page-header span:first-child {
+  background: #00ff33;
+  color: #071a66;
+  padding: 5px 90px 5px 12px;
+}
+
+.page-header span:last-child {
+  padding-right: 14px;
+}
+
+.info-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.info-box,
+.challenge-panel,
+.schedule-panel {
+  background: rgba(255,255,255,0.025);
+  border: 2px solid #2448d8;
+}
+
+.info-box {
+  min-height: 230px;
+  padding: 16px;
+}
+
+.info-box h2,
+.teletext-title h2 {
+  display: inline-block;
+  margin-bottom: 14px;
+  padding: 4px 12px;
+  background: #00ff33;
+  color: #071a66;
+  letter-spacing: 1px;
+}
+
+.info-box h2 {
+  font-size: 1.35rem;
+}
+
+.burnithon-layout {
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: 18px;
+}
+
+.challenge-panel,
+.schedule-panel {
+  padding: 16px;
+}
+
+.teletext-title {
+  margin-bottom: 22px;
+}
+
+.teletext-title h2 {
+  font-size: 3.4rem;
+  letter-spacing: 3px;
+}
+
+.small-title h2 {
+  font-size: 2.2rem;
+}
+
+.teletext-title p {
+  color: #00ffff;
+  font-size: 1.4rem;
+}
+
+.challenge-list,
+.schedule-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.challenge-row {
+  display: grid;
+  grid-template-columns: 78px 1fr 58px;
+  gap: 12px;
+  align-items: start;
+  padding: 6px 0;
+}
+
+.channel {
+  color: #ffd95a;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.challenge-row h2 {
+  color: white;
+  font-size: 1.80rem;
+  line-height: 1.15;
+}
+
+.challenge-row p {
+  color: #8ee7f0;
+  font-size: 1.40rem;
+  line-height: 1.55;
+}
+
+.status {
+  font-size: 2.5rem;
+  text-align: right;
+  line-height: 1;
+}
+
+.locked h2 {
+  color: #d7d7d7;
+}
+
+.locked p {
+  color: #b8b8b8;
+}
+
+.locked .channel {
+  color: #ff8b7e;
+}
+
+.unlocked .channel {
+  color: #8ee7f0;
+}
+
+.completed .channel {
+  color: #4fd46b;
+}
+
+.scheduled .channel {
+  color: #ffd95a;
+}
+
+.live-box {
+  padding: 0;
+  padding-right: 110px;
+  background: transparent;
+  border: 0;
+  position: relative;
+}
+
+.live-badge {
+  position: absolute;
+  top: 6px;
+  right: 0;
+
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+  background: #ff3c2f;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+
+.live-box h3 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 12px;
+  background: none;
+  padding: 0;
+}
+
+.live-box p,
+.sleep-box p {
+  color: #8ee7f0;
+  font-size: 1.40rem;
+  line-height: 1.8;
+}
+
+.points-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.12);
+  font-size: 1.40rem;
+  line-height: 1.55;
+}
+
+.points-row:last-child {
+  border-bottom: none;
+}
+
+.points-row span {
+  color: #8ee7f0;
+}
+
+.points-row strong {
+  color: #d1ad36;
+  text-align: right;
+}
+
+.schedule-item {
+  padding: 8px 0 14px;
+  border-bottom: 2px solid #2448d8;
+}
+
+.schedule-time {
+  display: block;
+  color: magenta;
+  font-size: 1.40rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.schedule-item h3 {
+  color: white;
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.schedule-item p {
+  color: #00ffff;
+  font-size: 1.40rem;
+  line-height: 1.35;
+  margin-top: 5px;
+}
+
+@media (max-width: 1050px) {
+  .info-strip,
+  .burnithon-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .info-box {
+    min-height: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  .burnithon-page {
+    padding: 150px 12px 60px;
+  }
+
+  .teletext-page {
+    padding: 10px;
+  }
+
+  .page-header {
+    font-size: 1rem;
+  }
+
+  .page-header span:first-child {
+    padding-right: 25px;
+  }
+
+  .teletext-title h2 {
+    font-size: 1.8rem;
+  }
+
+  .challenge-row {
+    grid-template-columns: 52px 1fr 40px;
+    gap: 8px;
+  }
+
+  .channel {
+    font-size: 1.2rem;
+  }
+
+  .challenge-row h2 {
+    font-size: 1rem;
+  }
+
+  .challenge-row p {
+    font-size: 0.86rem;
+  }
+
+  .status {
+    font-size: 1.35rem;
+  }
+}

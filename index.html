@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Burni</title>
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+  <!-- TAUSTAVIDEO -->
+  <video autoplay muted loop playsinline class="background-video">
+    <source src="assets/banner.mp4" type="video/mp4">
+  </video>
+
+  <!-- OVERLAY -->
+  <div class="overlay"></div>
+
+  <!-- YLÄPALKKI -->
+  <header class="topbar">
+    <a href="index.html">
+      <img src="assets/logo.png" alt="Burni Logo" class="top-logo">
+    </a>
+  </header>
+
+  <nav class="main-nav">
+    <a href="index.html" class="active">Etusivu</a>
+    <a href="burnithon.html">Burnithon</a>
+
+    <a href="merchstore.html" id="merch-link" style="display:none;">Merch</a>
+
+    <a href="miitti.html">Miitti</a>
+    <a href="yhteys.html">Yhteydenotto</a>
+  </nav>
+
+  <!-- SISÄLTÖ -->
+  <main class="home-page">
+
+    <!-- HERO -->
+    <section class="home-hero">
+      <div class="hero-text">
+        <h1>BURNI</h1>
+        <p>Twitch striimaaja ja sisällöntuottaja Valkeakoskelta. <br> 
+          Striimit on täynnä clutcheja, epäonnistumisia ja naurua <br>(usein samaan aikaan). <br><br>
+          Striimissä ja Discordissa on mahtava yhteisö, johon helppo hypätä mukaan! <br> 
+          Tuu messiin! Et varmaan opi mitään, mutta onpahan hauskaa!
+        
+        </p>
+
+    <!-- LINKIT -->
+
+        <div class="social-buttons">
+          <a href="https://www.twitch.tv/itsburni">Twitch</a>
+          <a href="https://www.tiktok.com/@ttvburni">TikTok</a>
+          <a href="https://www.instagram.com/ttvburni/">Instagram</a>
+          <a href="https://www.youtube.com/@ttvburni">YouTube</a>
+          <a href="https://discord.gg/a5CFAQ7uzZ">Discord</a>
+        </div>
+      </div>
+
+    <!-- KUVA -->
+
+    <div class="hero-image-card">
+      <img src="assets/burni.png" alt="Burni">
+    </div>
+
+    </section>
+
+    <!-- AJANKOHTAISTA -->
+    <section class="current-section">
+      <h2>Ajankohtaista</h2>
+
+      <div class="current-grid">
+        <div class="countdown-card">
+          <p class="eyebrow">Burnithon 2.0 alkaa</p>
+          <div id="countdown" class="countdown">Ladataan...</div>
+          <p class="date">1.6.2026 klo 16:00 - maksimi aika 8.6.2026 klo 16:00</p>
+
+          <div class="countdown-info">
+            <p>Subit • Bitit • Donatet = lisää aikaa & avaa uusia haasteita ja/tai palkintoja.<br>
+            <br>
+            Tier 1 sub = + 6min ja 1 piste<br>
+            Tier 2 sub = + 12min ja 2 pistettä<br>
+            Tier 3 sub = + 24min ja 5 pistettä<br>
+            <br>
+            100 bittiä = + 2min ja 0,33 pistettä<br>
+            1€ = + 3min ja 0,5 pistettä
+            </p>
+          </div>
+
+          <a href="burnithon.html" class="cta-button">Katso Burnithon</a>
+        </div>
+
+    <!-- AFFILIATE -->
+
+        <a href="https://arozzi.se/itsburni" class="partner-card" target="_blank">
+          <img src="assets/arozzi.png" alt="Arozzi affiliate">
+        </a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <a href="privacy-policy.html">
+      Privacy Policy
+    </a>
+
+  </footer>
+
+  <script src="js/haasteet.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>

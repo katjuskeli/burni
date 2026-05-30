@@ -1,0 +1,65 @@
+.miitti-page {
+  min-height: 100vh;
+  padding: 190px 20px 80px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-card {
+  width: min(760px, 100%);
+  padding: 50px 35px;
+
+  background: rgba(0,0,0,0.72);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+
+  text-align: center;
+}
+
+.error-code {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #ff3c2f;
+  line-height: 1;
+  margin-bottom: 10px;
+}
+
+.error-card h1 {
+  font-size: 2.8rem;
+  margin-bottom: 16px;
+}
+
+.error-text {
+  color: #dddddd;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.troll-image {
+  width: 478px;
+  max-width: 100%;
+  margin: 0 auto 4px;
+  border-radius: 18px;
+}
+.image-credit {
+  color: rgba(255,255,255,0.55);
+  font-size: 0.82rem;
+
+  margin-top: 4px;
+  margin-bottom: 24px;
+}
+
+
+@media (max-width: 768px) {
+  .error-code {
+    font-size: 4.5rem;
+  }
+
+  .error-card h1 {
+    font-size: 2rem;
+  }
+}
