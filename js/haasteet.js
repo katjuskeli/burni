@@ -29,14 +29,14 @@ const challenges = [
     points: 45,
     title: "AAMUJOOGA",
     description: "Aamu joogat ja venyttelyt kaikille Subathonin aamuille.",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "060",
     points: 60,
     title: "BURNI-TÄDIN ILTASADUT",
     description: "Burni kuvittaa iltasadut koko Subathonin ajan.",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "075",
@@ -57,14 +57,14 @@ const challenges = [
     points: 125,
     title: "KÄSITYÖNURKKA",
     description: "Riittääkö sorminäppäryys ja hermot, kun pitää koota miniatyyri kasvihuone?",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "150",
     points: 150,
     title: "BUMTSIKIBUM",
     description: "Luuletko olevasi kova musatietäjä? <br> Burni ainakin luulee, joten testaan kuinka hyvin hän oikeasti tunnistaa biisit chätin kanssa.",
-    status: ""
+    status: "completed"
   },
   {
     number: "200",
