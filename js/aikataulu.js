@@ -15,5 +15,10 @@ const schedule = [
     time: "JOKA AAMU KLO 9:00",
     title: "AAMUJOOGA",
     label: "Kannattaa liittyä mukaan kotoa käsin"
+  },
+  {
+    time: "TIISTAINA KLO 12:00",
+    title: "KÄSITYÖNURKKA",
+    label: "Riittääkö sorminäppäryys ja hermot, kun pitää koota miniatyyri kasvihuone?"
   }
 ];
