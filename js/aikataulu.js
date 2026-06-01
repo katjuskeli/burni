@@ -20,5 +20,15 @@ const schedule = [
     time: "TIISTAINA KLO 12:00",
     title: "KÄSITYÖNURKKA",
     label: "Riittääkö sorminäppäryys ja hermot, kun pitää koota miniatyyri kasvihuone?"
+  },
+  {
+    time: "KESKIVIIKKONA",
+    title: "YHDEN TÄHDEN ILLALLINEN",
+    label: "Huippukokki on keksinyt Burnille kokattavaksi 3-ruokalajin menun."
+  },
+  {
+    time: "TORSTAINA",
+    title: "EI MENNY KU STRÖMSÖSSÄ",
+    label: "Virkkaus ei ollut Burnin juttu joten nyt aika iskeä kädet saveen ja antaa luovuuden kukkia."
   }
 ];
