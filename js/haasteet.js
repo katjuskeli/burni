@@ -8,7 +8,7 @@ const challenges = [
     points: 1,
     title: "KARHU KEVENNYS",
     description: "Otetaan juhlan kunniaksi yksi juoma.",
-    status: ""
+    status: "completed"
   },
   {
     number: "015",
