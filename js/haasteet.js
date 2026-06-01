@@ -50,7 +50,7 @@ const challenges = [
     points: 100,
     title: "OSTOS-TV",
     description: "Toiveidenne Merch-store aukeaa.",
-    status: ""
+    status: "completed"
   },
   {
     number: "125",
