@@ -10,5 +10,10 @@ const schedule = [
     time: "JOKA ILTA",
     title: "BURNI-TÄDIN ILTASADUT",
     label: "Aika sovitaan"
+  },
+  {
+    time: "JOKA AAMU",
+    title: "AAMUJOOGA",
+    label: "Aika sovitaan"
   }
 ];
