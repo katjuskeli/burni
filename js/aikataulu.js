@@ -7,8 +7,8 @@ const schedule = [
     label: "Aika ilmoitetaan päivittäin"
   },
   {
-    time: "MA 16:00",
-    title: "SUBATHON ALKAA",
-    label: "Ootteks te valmiina!!"
+    time: "JOKA ILTA",
+    title: "BURNI-TÄDIN ILTASADUT",
+    label: "Aika sovitaan"
   }
 ];
