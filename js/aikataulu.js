@@ -12,8 +12,8 @@ const schedule = [
     label: "Kuvitetut iltasadut"
   },
   {
-    time: "JOKA AAMU",
+    time: "JOKA AAMU KLO 9:00",
     title: "AAMUJOOGA",
-    label: "Aika sovitaan"
+    label: "Kannattaa liittyä mukaan kotoa käsin"
   }
 ];
