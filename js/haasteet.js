@@ -15,7 +15,7 @@ const challenges = [
     points: 15,
     title: "ASIA ON PIHVI, EIKU PIZZA",
     description: "Pyöräytetääs murkinaa juontajalle ruletin avulla.",
-    status: ""
+    status: "completed"
   },
   {
     number: "030",
