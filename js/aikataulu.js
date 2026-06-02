@@ -17,18 +17,28 @@ const schedule = [
     label: "Kannattaa liittyä mukaan kotoa käsin"
   },
   {
-    time: "TIISTAINA KLO 12:00 - JATKUU KESKIVIIKKONA AAMUJOOGAN JÄLKEEN",
+    time: "JATKUU KESKIVIIKKONA AAMUJOOGAN JÄLKEEN",
     title: "KÄSITYÖNURKKA",
     label: "Riittääkö sorminäppäryys ja hermot, kun pitää koota miniatyyri kasvihuone?"
   },
   {
-    time: "KESKIVIIKKONA",
+    time: "KESKIVIIKKONA - KOKO PÄIVÄ - VALMIS KLO 17:00",
     title: "YHDEN TÄHDEN ILLALLINEN",
     label: "Huippukokki on keksinyt Burnille kokattavaksi 3-ruokalajin menun. Menu: !illallinen chättiin."
+  },
+  {
+    time: "KESKIVIIKKONA KLO 18:00",
+    title: "LEVYRAATI",
+    label: "Aiheena ryyppybiisit - mieti kappale valmiiksi ja osallistu mukaan."
   },
   {
     time: "TORSTAINA",
     title: "EI MENNY KU STRÖMSÖSSÄ",
     label: "Virkkaus ei ollut Burnin juttu joten nyt aika iskeä kädet saveen ja antaa luovuuden kukkia."
+  },
+  {
+    time: "TORSTAINA",
+    title: "HUVILA ILMAN HUUSSIA",
+    label: "Ei rakenneta sitä huussia, mutta katsotaan onko Burni viherpeukalo."
   }
 ];
