@@ -1,6 +1,6 @@
 /* jshint esversion: 6 */
 
-const currentPoints = 216;
+const currentPoints = 251;
 
 const challenges = [
   {
