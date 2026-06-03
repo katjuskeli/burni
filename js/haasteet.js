@@ -22,7 +22,7 @@ const challenges = [
     points: 30,
     title: "LEVYT CHÄTIN RAADISSA",
     description: "Nyt kaivelemaan parhaat biisit ja osallistumaan legendaariseen levyraatiin.",
-    status: ""
+    status: "completed"
   },
   {
     number: "045",
