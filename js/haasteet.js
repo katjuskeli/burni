@@ -43,7 +43,7 @@ const challenges = [
     points: 75,
     title: "YHDEN TÄHDEN ILLALLINEN",
     description: "Huippukokki on keksinyt Burnille kokattavaksi 3-ruokalajin menun.",
-    status: ""
+    status: "completed"
   },
   {
     number: "100",
@@ -57,7 +57,7 @@ const challenges = [
     points: 125,
     title: "KÄSITYÖNURKKA",
     description: "Riittääkö sorminäppäryys ja hermot, kun pitää koota miniatyyri kasvihuone?",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "150",
