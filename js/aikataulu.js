@@ -17,11 +17,6 @@ const schedule = [
     label: "Kannattaa liittyä mukaan kotoa käsin"
   },
   {
-    time: "KESKIVIIKKONA KLO 18:00",
-    title: "LEVYRAATI",
-    label: "Aiheena ryyppybiisit - mieti kappale valmiiksi ja osallistu mukaan."
-  },
-  {
     time: "TORSTAINA",
     title: "EI MENNY KU STRÖMSÖSSÄ",
     label: "Virkkaus ei ollut Burnin juttu joten nyt aika iskeä kädet saveen ja antaa luovuuden kukkia."
