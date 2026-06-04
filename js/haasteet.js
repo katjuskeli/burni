@@ -71,14 +71,14 @@ const challenges = [
     points: 200,
     title: "EI MENNY KU STRÖMSÖSSÄ",
     description: "Virkkaus ei ollut Burnin juttu joten nyt aika <br> iskeä kädet saveen ja antaa luovuuden kukkia.",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "250",
     points: 250,
     title: "AVARA CHÄTINLUONTO",
     description: "Kuka on chätin ketterin kettu, nopein norppa tai ovelin orava? <br> Nyt se selviää kun kisataan taas kuumasta palkinnosta! <br> Voittajalle lähtee 'B' -logomuki.",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "300",
@@ -92,7 +92,7 @@ const challenges = [
     points: 350,
     title: "GRWM",
     description: "Eli meille boomereille suomennettuna: <br> valmistaudutaan uuteen Subathon päivään yhdessä.",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "400",
