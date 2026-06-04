@@ -85,7 +85,7 @@ const challenges = [
     points: 300,
     title: "HUVILA ILMAN HUUSSIA",
     description: "Ei rakenneta sitä huussia, mutta katsotaan onko Burni viherpeukalo.",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "350",
