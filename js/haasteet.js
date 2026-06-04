@@ -112,7 +112,7 @@ const challenges = [
     number: "520",
     points: 520,
     title: "SPORTTIVARTTI JOS TOINENKIN",
-    description: "Kuinka Burni selviää 77 kilometrin pyöräilystä <br> "(" + kahden + ")" huippu-urheilijan kanssa?",
+    description: "Kuinka Burni selviää 77 kilometrin pyöräilystä <br> kahden huippu-urheilijan kanssa?",
     status: ""
   },
   {
