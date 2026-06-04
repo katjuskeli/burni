@@ -17,13 +17,8 @@ const schedule = [
     label: "Kannattaa liittyä mukaan kotoa käsin"
   },
   {
-    time: "TORSTAINA NOIN KLO 15:00 ->",
-    title: "EI MENNY KU STRÖMSÖSSÄ",
-    label: "Virkkaus ei ollut Burnin juttu joten nyt aika iskeä kädet saveen ja antaa luovuuden kukkia."
-  },
-  {
-    time: "TORSTAINA NOIN KLO 16:00/17:00 ->",
-    title: "AVARA CHÄTINLUONTO",
-    label: "Kuka on chätin ketterin kettu, nopein norppa tai ovelin orava? Nyt se selviää kun kisataan taas kuumasta palkinnosta! Voittajalle lähtee 'B' -logomuki.."
+    time: "PERJANTAINA KLO 11:00",
+    title: "GRWM",
+    label: "Eli meille boomereille suomennettuna: valmistaudutaan uuteen Subathon päivään yhdessä."
   }
 ];
