@@ -17,11 +17,6 @@ const schedule = [
     label: "Kannattaa liittyä mukaan kotoa käsin"
   },
   {
-    time: "TORSTAINA KLO 11:15",
-    title: "HUVILA ILMAN HUUSSIA",
-    label: "Ei rakenneta sitä huussia, mutta katsotaan onko Burni viherpeukalo."
-  },
-  {
     time: "TORSTAINA NOIN KLO 15:00 ->",
     title: "EI MENNY KU STRÖMSÖSSÄ",
     label: "Virkkaus ei ollut Burnin juttu joten nyt aika iskeä kädet saveen ja antaa luovuuden kukkia."
