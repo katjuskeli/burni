@@ -15,10 +15,5 @@ const schedule = [
     time: "JOKA AAMU KLO 9:00",
     title: "AAMUJOOGA",
     label: "Kannattaa liittyä mukaan kotoa käsin"
-  },
-  {
-    time: "PERJANTAINA KLO 11:00",
-    title: "GRWM",
-    label: "Eli meille boomereille suomennettuna: valmistaudutaan uuteen Subathon päivään yhdessä."
   }
 ];
