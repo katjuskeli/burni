@@ -113,21 +113,21 @@ const challenges = [
     points: 520,
     title: "SPORTTIVARTTI JOS TOINENKIN",
     description: "Kuinka Burni selviää 77 kilometrin pyöräilystä <br> kahden huippu-urheilijan kanssa?",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "580",
     points: 580,
     title: "BURNITHON GRAND PRIX",
     description: "Nyt lappua lattiaan ja hanaa chätti!  <br> Kisan voittajalle lähtee Arozzin käsinojapehmusteet. <br> Sponsored by Arozzi",
-    status: ""
+    status: "completed"
   },
   {
     number: "640",
     points: 640,
     title: "PELKOA KERTOIMELLA",
     description: "Säikäyttääkö peli vai Väiski juontiksen?",
-    status: ""
+    status: "scheduled"
   },
   {
     number: "720",
