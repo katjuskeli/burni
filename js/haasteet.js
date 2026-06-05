@@ -99,7 +99,7 @@ const challenges = [
     points: 400,
     title: "KUKA HALUAA MILJONÄÄRIKSI?",
     description: "Nyt on mahdollisuus päästä kisaamaan miljoonasta pisteestä, <br> maineesta ja kunniasta.",
-    status: ""
+    status: "completed"
   },
   {
     number: "460",
