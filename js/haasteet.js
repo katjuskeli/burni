@@ -92,7 +92,7 @@ const challenges = [
     points: 350,
     title: "GRWM",
     description: "Eli meille boomereille suomennettuna: <br> valmistaudutaan uuteen Subathon päivään yhdessä.",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "400",
