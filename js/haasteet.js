@@ -106,7 +106,7 @@ const challenges = [
     points: 460,
     title: "TODENNÄKÖISESTI PITÄÄ OLLA HUOLISSAAN",
     description: "Onko asia, joka painaa mieltä? <br>Ei hätää, arvoisat panelistimme vastaavat huolenaiheisiinne.",
-    status: ""
+    status: "completed"
   },
   {
     number: "520",
@@ -134,14 +134,14 @@ const challenges = [
     points: 720,
     title: "OTA RAHAT JA PYÖRI",
     description: "Onko kuulat kiilotettu - nyt on aika pyöriä voitoon muita nopeammin. <br> 50€ K-Ryhmän lahjakortti lähtee voittajalle. <br> Sponsored by K-Citymarket Valkeakoski",
-    status: ""
+    status: "completed"
   },
   {
     number: "800",
     points: 800,
     title: "KOKO VALKEAKOSKI LEIPOO - TAI NO AINAKIN BURNI",
     description: "Kuinka luonnistuu Burnilta täytekakun teko?<br>Monta kertaa kerkeät sanot Brita-kakku ennen kuin kakku on valmiina? ",
-    status: ""
+    status: "completed"
   },
   {
     number: "880",
