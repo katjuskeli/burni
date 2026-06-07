@@ -22,11 +22,6 @@ const schedule = [
     label: "Kaikkien rakastama kultakutri palaa etsimään rakkautta. Mutta löytääkö hän sen?"
   },
   {
-    time: "SUNNUNTAINA 14:00",
-    title: "HAPPY HOUR",
-    label: "Aika ja pisteet tuplataan"
-  },
-  {
     time: "SUNNUNTAINA 17:30->",
     title: "SPORTTIVARTTI JOS TOINENKIN",
     label: "Kuinka Burni selviää 77 kilometrin pyöräilystä kahden huippu-urheilijan kanssa?"
