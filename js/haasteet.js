@@ -148,7 +148,7 @@ const challenges = [
     points: 880,
     title: "NAPAKYMPPI VAI ONKO SITTENKÄÄN?",
     description: "Kaikkien rakastama kultakutri palaa etsimään rakkautta. <br> Mutta löytääkö hän sen?",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "960",
