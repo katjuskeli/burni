@@ -4,7 +4,7 @@
 const countdownElement = document.getElementById("countdown");
 
 function getIndexEndDate() {
-  let endDate = new Date("2026-06-08T02:12:00+03:00");
+  let endDate = new Date("2026-06-08T02:15:00+03:00");
 
   const extraDayChallenge = challenges.find(
     challenge => challenge.number === "1080"
