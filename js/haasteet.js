@@ -113,7 +113,7 @@ const challenges = [
     points: 520,
     title: "SPORTTIVARTTI JOS TOINENKIN",
     description: "Kuinka Burni selviää 77 kilometrin pyöräilystä <br> kahden huippu-urheilijan kanssa?",
-    status: "scheduled"
+    status: "completed"
   },
   {
     number: "580",
@@ -155,7 +155,7 @@ const challenges = [
     points: 960,
     title: "¡OH DIOS MíO, ES LA HORA FELIZ!",
     description: "Ei, nyt ei oo aika espanjalaiselle telenovelalle <br> vaan aika pistää happy hour käyntiin!",
-    status: ""
+    status: "completed"
   },
   {
     number: "1080",
